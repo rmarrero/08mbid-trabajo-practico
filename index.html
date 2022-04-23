@@ -7,7 +7,10 @@
 <h4> Url: 
   <a
 href="https://08mbid-trabajo-practico.stackblitz.io">stackblitz_MBID08_Trabajo_Practico</a>
-
+</h4>
+<h4> GitHub: 
+  <a
+href="https://github.com/rmarrero/08mbid-trabajo-practico.git">rmarrero/08mbid-trabajo-practico</a>
 </h4>
 <h4> Fuente: 
   <a
@@ -41,7 +44,45 @@ href="https://touringplans.com/blog/disney-world-wait-times-available-for-data-s
 <h2> Objetivos </h2>
 <div class="text">
   <div style="margin-left:10px;">
-    Por lo tanto, nuestro objetivo es buscar un patrón que permita no solo a un turista analizar en base a variables como la temperatura, época de lluvia, ocupación de los parques o tasa de fallo de las atracciones <b>¿cuando es el mejor momento de realizar el viaje?</b>, sino que también permita a un Operador Turístico <b>realizar campañas y ofertar promociones a sus clientes en base a las categorías de los clusters</b>.
+    El objetivo es entonces buscar un patrón que permita no solo a un turista analizar en base a variables como la temperatura, época de lluvia, ocupación de los parques o tasa de fallo de las atracciones <b>¿cuando es el mejor momento de realizar el viaje?</b>, sino que un Operador Turístico pueda <b>realizar campañas y ofertar promociones a sus clientes en base a las categorías de los clusters</b>.
       <br/>
       <br/>
-    
+    En detalle, para cada audiencia:
+      <br/>
+      <br/>
+    Como turista, decidir cuando visitar DWR en base a:<br/><br/>
+      <div style="margin-left:30px;">
+        • Ocupación de los parques<br/>
+        • Precio del billete de entrada<br/>
+        • Horario de apertura<br/>
+        • Temperatura<br/>
+        • Eventos y actividades extras
+      </div>
+      <br/>
+    Como Operador Turístico:<br/><br/>
+      <div style="margin-left:30px;">
+        • Cuando se estima viajen mas personas, para aplicar campañas; como, por ejemplo, paquetes vuelo + hotel + tickets<br/>
+        • Cuando se estima viajen menos personas, para aplicar promociones por ejemplo en el precio; o añadir otros beneficios, como, por ejemplo, alquiler de coche incluido, programa todo incluido, etc.<br/>
+      </div>
+  </div>
+</div>
+<br/>
+<br/>
+<h2> Análisis de las Categorías </h2>
+<div class="text">
+  <div style="margin-left:10px;">
+    Para el análisis de las categorías se usaron las variables de Ocupación de los Parques y la Tasa de Fallos de las Atracciones. Y con estos resultados, ver como relacionan con el precio de los tickets y la época del año. 
+    <br/>
+    <br/>
+    En las ilustraciones 1 y 2, podemos observar que de nuestro estudio de categorización, se desprenden tres Clusters; pero, <b>¿Qué representa cada uno de ellos?</b>
+    <br/>
+    <br/>
+    <div style="margin-left:30px;">
+      • <U>OPTIMO</U> -> Categoría que engloba las semanas del año donde los parques ofrecen un mayor número de horas de apertura, y su tasa de capacidad en las atracciones;es decir, pueden atender a los visitantes del parque, es alta <br/>
+      • <U>CAPACIDAD</U> -> Categoría que engloba las semanas donde los parques abren menos horas al días, pero sus atracciones funcionan de forma óptima.<br/>
+      • <U>HORARIO</U> -> Categoría que engloba las semanas donde los parques abren un grán número de horas; pero, hay una mayor probabilidad de atraciones fuera de servicio. Por ejemplo, época de mantenimiento de las mismas.
+    <br/>
+    <br/>
+
+
+
