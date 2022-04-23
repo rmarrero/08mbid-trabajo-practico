@@ -11,4 +11,5 @@ Mediante el uso de la Visualización de Datos, ofrecer al usuario una serie de g
 - index.html -> Código HTML utilizado en esta actividad
 - 05MBID_ACT2_ProcesamientoCalidadDatos_ricardomarrerocarrion.ipynb -> Notebook entregado en la Asignatura 05MBID como parte del proceso KDD
 - 06MBID_ACT2_RicardoMarrero -> Memoria entregada en la Asignatura 06MBID sobre el proceso de Segmentación
+- 08MBID_TP_ricardomarerrocarrion -> Análisis de la Segmentación por medio de la Visualización de Datos.
 
