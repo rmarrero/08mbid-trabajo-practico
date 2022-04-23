@@ -29,7 +29,7 @@ href="https://touringplans.com/blog/disney-world-wait-times-available-for-data-s
       Por lo tanto, como turista, o como empresa que se dedica a este negocio, cabe siempre la pregunta: <b>¿Cuál es el mejor momento para viajar a Disney World Resort?</b>>
       <br/>
       <br/>
-      Durante el desarrollo del Master, y específicamente en las asignaturas de <I>05MBID .- Minería de Datos y 06MBDID .- Estadística Avanzada</I>; se aplicó el proceso KDD para el descubrimiento de patrones, limpieza del dataset original y búsqueda de similitudes mediante la clusterización.
+      Durante el desarrollo del Master, y específicamente en las asignaturas de <I>05MBID .- Minería de Datos y 06MBDID .- Estadística Avanzada</I>; se aplicó el proceso KDD para el descubrimiento de patrones, limpieza del dataset original y búsqueda de similitudes mediante la clusterización o segmentación.
 
   </div>
 </div>
@@ -52,35 +52,35 @@ href="https://touringplans.com/blog/disney-world-wait-times-available-for-data-s
       <br/>
     Como turista, decidir cuando visitar DWR en base a:<br/><br/>
       <div style="margin-left:30px;">
-        • Ocupación de los parques<br/>
-        • Precio del billete de entrada<br/>
-        • Horario de apertura<br/>
-        • Temperatura<br/>
+        • Ocupación de los parques<br/><br/>
+        • Precio del billete de entrada<br/><br/>
+        • Horario de apertura<br/><br/>
+        • Temperatura<br/><br/>
         • Eventos y actividades extras
       </div>
       <br/>
     Como Operador Turístico:<br/><br/>
       <div style="margin-left:30px;">
-        • Cuando se estima viajen mas personas, para aplicar campañas; como, por ejemplo, paquetes vuelo + hotel + tickets<br/>
-        • Cuando se estima viajen menos personas, para aplicar promociones por ejemplo en el precio; o añadir otros beneficios, como, por ejemplo, alquiler de coche incluido, programa todo incluido, etc.<br/>
+        • Cuando se estima viajen mas personas, para aplicar campañas; como, por ejemplo, paquetes vuelo + hotel + tickets<br/><br/>
+        • Cuando se estima viajen menos personas, para aplicar promociones por ejemplo en el precio; o añadir otros beneficios, como, por ejemplo, alquiler de coche incluido, programa todo incluido, etc.<br/><br/>
       </div>
   </div>
 </div>
 <br/>
 <br/>
-<h2> Análisis de las Categorías </h2>
+<h2> Análisis de las Segmentaciones </h2>
 <div class="text">
   <div style="margin-left:10px;">
-    Para el análisis de las categorías se usaron las variables de Ocupación de los Parques y la Tasa de Fallos de las Atracciones. Y con estos resultados, ver como relacionan con el precio de los tickets y la época del año. 
+    Para el análisis de las Segmentaciones se usaron las variables de Ocupación de los Parques y la Tasa de Fallos de las Atracciones. Y con estos resultados, ver como relacionan con el precio de los tickets y la época del año. 
     <br/>
     <br/>
-    En las ilustraciones 1 y 2, podemos observar que de nuestro estudio de categorización, se desprenden tres Clusters; pero, <b>¿Qué representa cada uno de ellos?</b>
+    En las ilustraciones 1 y 2, podemos observar que de nuestro estudio de segmentación, se desprenden tres Clusters; pero, <b>¿Qué representa cada uno de ellos?</b>
     <br/>
     <br/>
     <div style="margin-left:30px;">
-      • <U>OPTIMO</U> -> Categoría que engloba las semanas del año donde los parques ofrecen un mayor número de horas de apertura, y su tasa de capacidad en las atracciones;es decir, pueden atender a los visitantes del parque, es alta <br/>
-      • <U>CAPACIDAD</U> -> Categoría que engloba las semanas donde los parques abren menos horas al días, pero sus atracciones funcionan de forma óptima.<br/>
-      • <U>HORARIO</U> -> Categoría que engloba las semanas donde los parques abren un grán número de horas; pero, hay una mayor probabilidad de atraciones fuera de servicio. Por ejemplo, época de mantenimiento de las mismas.
+      • <U>OPTIMO</U> -> Segmento que engloba las semanas del año donde los parques ofrecen un mayor número de horas de apertura, y su tasa de capacidad en las atracciones;es decir, pueden atender a los visitantes del parque, es alta <br/><br/>
+      • <U>CAPACIDAD</U> -> Segmento que engloba las semanas donde los parques abren menos horas al días, pero sus atracciones funcionan de forma óptima.<br/><br/>
+      • <U>HORARIO</U> -> Segmento que engloba las semanas donde los parques abren un grán número de horas; pero, hay una mayor probabilidad de atraciones fuera de servicio. Por ejemplo, época de mantenimiento de las mismas.
     </div>
     <br/>
     Esta relación de horario y capacidad de funcionamiento por semana según cada cluster, se puede observar en la siguiente ilustración:
@@ -116,10 +116,36 @@ href="https://touringplans.com/blog/disney-world-wait-times-available-for-data-s
     <br/>
     <br/>
     <div style="margin-left:30px;">
-      • Por el Diagrama de Columnas utilizado en la Ilustración 1, el Cluster Óptimo para realizar el viaje o aplicar un campaña está presente en todo el año, principalmente en primavera; y que por otro lado, en verano no hay evidencias que se escoja visita DWR solo por la capacidad de funcionamiento de las atracciones. <br/><br/>
+      • Por el <I>Diagrama de Columnas</I> utilizado en la Ilustración 1, el Cluster Óptimo para realizar el viaje o aplicar un campaña está presente en todo el año, principalmente en primavera; y que por otro lado, en verano no hay evidencias que se escoja visita DWR solo por la capacidad de funcionamiento de las atracciones. <br/><br/>
       • La Ilustración 1, nos permite observar igualmente que las mejores épocas de visita a DWR es primavera y otoño. <br/><br/>
-      • En la Ilustración 2, por medio de un Diagrama de Barras, se detalla la relación de los Clusters con el valor o precio del ticket de entrada. Y vemos dos aspectos interesantes: por un lado cuando DWR está en semanas de alta capacidad de las atracciones pero menos horas de apertura; los precios de las entradas son mas económicas. Caso contrario, en la época del año donde tanto capacidad como horarios son óptimos, lo que hace suban los precios del ticket. <br/><br/>
-      
+      • En la Ilustración 2, por medio de un <I>Diagrama de Barras</I>, se detalla la relación de los Clusters con el valor o precio del ticket de entrada. Y vemos dos aspectos interesantes: por un lado cuando DWR está en semanas de alta capacidad de las atracciones pero menos horas de apertura; los precios de las entradas son mas económicas. Caso contrario, en la época del año donde tanto capacidad como horarios son óptimos, lo que hace suban los precios del ticket. <br/><br/>
+      • Igualmente de esta ilustración podemos concluir que en le época considerada óptima, hay pocas probabilidades que los precios sean bajos. <br/><br/>
+      • El <I>Diagrama de Dispersión</I> (Ilustración 3), nos permite visualizar de una forma dinámica el comportamiento de los Cluster por cada semana y mes del año. Respecto a las variables comentadas anteriormente. <br/><br/>
+      • Y por último, con el <I>Cuadro de Mando</I> de la Ilustración 4, podemos obtener información adicional que complemente la toma de desiciones.<br/><br/>
+    </div>
+    <h4> Tomas de Desiciones </h4>
+    <div style="margin-left:30px;">
+      • Como turistas seguramente escogeremos las temporadas de primavera y otoño para visitar DWR, ya que nos ofrece una mayor número de semanas disponibles en la segmentación Óptima, y los valores de Temperatura y Precipaciones son ideales. <br/><br/>
+      • Como Operador Turístico, aplicar una campaña de mejora de precios en los tickets en primavera y otoño. O, aplicar promociones y añadir otros beneficiones en la segmentación de Capacidad, ya aque sabemos los precios del ticket son medios y bajos, y la afluencia de visitantes es menor. <br/><br/>
+    </div>
+    <h4> Herramientas Utilizadas </h4>
+    <div style="margin-left:30px;">
+      • Como se comentó en el inicio de este documento, el dataset utilizado es el resultado previo de un análisis hecho en un proceso KDD y clusterización. Mediante el uso de <I> Google Sheets</I> se realizó una preparación de los datos (ETL) para su uso en las Ilustraciones. Adicionalmente, se usó este programa para la elaboración de la Ilustraciones estáticas.<br/><br/>
+      • Para las Ilustraciones Dinámicas e Interactivas, se hizo uso de <I>Power BI</I>, ya que es una herramienta muy versátil para la creación de gráficos y visualización de datos. <br/><br/>
+    </div>
+    <h4> Referencias </h4>
+    "metadata.csv", Disney World Ride Wait Time Datasets, TouringPlans.com, June 2021, https://www.touringplans.com/walt-disney-world/crowd-calendar/#DataSets, Accessed 13 June 2021.
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 
